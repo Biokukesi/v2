@@ -1,5 +1,6 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
+import HomeView from '../components/services.vue'
 </script>
 
 <template>
@@ -7,4 +8,5 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+    <HomeView/>
 </template>

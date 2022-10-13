@@ -2,14 +2,13 @@
 
 #app {
   max-width: 1280px;
-  max-height: 720px;
   margin: 0 auto;
   padding: .5rem;
 
  
 }
 body{
-  background-image:url("../assets/background.jpg")
+   background-color: azure;
 }
 
 a,

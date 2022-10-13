@@ -10,6 +10,7 @@
         <div class="row">
           <div class="col-md-4 col-sm-6">
             <h3>Enroll with us</h3>
+            <h3>call us on 0961762309 </h3>
             <p>Get all the latest information on our Services, Events, Jobs
               and Fairs. Sign up for our newsletter today.</p>
           </div>
@@ -24,24 +25,16 @@
           <div class="col-md-12">
             <div class="standard_social_links">
           <div>
-            <li class="round-btn btn-facebook"><a href="https://web.facebook.com/pierrelikomenoh"><i class="fab fa-facebook-f"></i></a>
-  
-            </li>
-            <li class="round-btn btn-linkedin"><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-whatsapp"><a href="https://api.whatsapp.com/send?phone=260961762309&data=AWBjBS1gKXMcao1uqilwgRqbmeCGGUxSDcaTQtwhAFSOkEtjGoE1YCzIVtqhiGxlIwIklsiA5qbxZnPnUfO_DuZDEWABzdJuxeERpKGIeB38nFvJq9Iy7edpsgGcXe61z8NjBQ_1s1iuMgrFpfqWfzC0zD3ITObrFuBDxLCXhVrN-zig0k04T9CYkVNY90LfomNtwasnIHk5hh4jSJPQ47jP0RJ4zDSHwG5FJzktElp5f-Qfg3PQG2GUtsEZJao2yn1gLZJEsxEj8cgBQG0jrg&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR0KpYdAbttJRqIBPNpPMVin6WVzDpXL6NRLUdqjmTmSKdmUYz--ejGTbb8"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-  
-            </li>
-            <li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-  
-            </li>
+            <ul>
+            <li class="btn-facebook round-btn"><a href="https://web.facebook.com/pierrelikomenoh"><i class="fa fa-facebook" style="font-size:25px"></i></a></li>
+            <li class="btn-whatsapp round-btn"><a href="https://api.whatsapp.com/send?phone=260961762309&data=AWAcs3ZoNDqOA8OLMUNZmhFwu6vs0Yzv6P0yY3bEoAvmoU_Q8TCeaQpv1L3PhOVvX4bmkLFoWR-TfncL9q13CKy91NOH2HlOQl2_25kPiVt2b1jUlmWDy2y0eRNnEoh5Uu-iaNAJJ6JhPzAr6ufLR2_Cxj8isVMhbLt6fDzBMknC7fL187I0UK1ic_4LtV_n9iJdWTF7WoQmv370RlR-yXSSihSB5b7NEhcGEOGIeJKd3BJv5ELtgZw8635LGEQQN9m1lSGdQD2hdSxW_WNPog&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1Odn8u5VEoCpKfwNkm19FPyrI1P4zMmkDCMJknGtMZJ1aOADkGASP2epg"><i class="fa fa-whatsapp" style="font-size:36px"></i></a></li>
+          </ul>
+            <!-- <li class="round-btn btn-facebook"><a href="https://web.facebook.com/pierrelikomenoh"><i class="fab fa-facebook-f"></i></a>
+                 
+            </li> -->
+            
+      
+            
           </div>
         </div>  
           </div>
@@ -126,27 +119,28 @@
 </template>
 
 <style>
-.round-btn {display: inline;height: 40px; width: 40px; background:#fff;border-radius: 50%;float: left;margin: 15px 8px;box-shadow: 2px 2px 5px 0px rgb(82, 0, 67);border: 1px solid;/*border: 1px solid #622657;*/}
+
 .round-btn a {display: block !important;padding: 7px 12px;font-size: 18px;border-radius: 50%;}
 .round-btn .icon {padding: 3px;}
-.round-btn .icon img{height: 24px; width: 32px;margin-top: 6px;}
+
 .btn-facebook a {color: #3b5998;padding: 8px 13px;}
 .btn-linkedin a {color: #007bb6;}
-.btn-twitter a{color: #1c9deb;}
-.btn-instagram a{color: #dd3f5c;}
-.btn-whatsapp a{color: #155E54;}
-.btn-envelop a{color: #D6403A;font-size: 15px; padding: 9px 12px;}
-.standard_header .standard_social_links {margin-left: 1rem;}
+
 
   /*
   =========================================================================================
                                     footer
   =========================================================================================
   */
+  footer{
+    border-radius: 10px;
+   
+  }
   
   .footer-wrap {
     padding-top: 43px;
     background-size: cover;
+    
 }
 
 .footer-wrap h3 {

@@ -1,5 +1,5 @@
 <template> 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -10,22 +10,40 @@
       <div class="carousel-item active">
         <img class="d-block w-100" src="../assets/first.jpg" alt="First slide">
         <div class="carousel-caption d-md-block">
-          <button type="button" class="btn btn-outline-primary">Enroll with us</button>
+          <div class="carousel-caption d-md-block">
+            <button type="button" class="btn btn-success">Enroll with us</button>
+  
+          </div>
 
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="../assets/kids.jpg" alt="Second slide">
+        <img class="d-block w-100" src="../assets/kids3.avif" alt="Second slide">
+        <div class="carousel-caption d-md-block">
+          <button type="button" class="btn btn-success">Kids</button>
+
+        </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="../assets/shutterstock_200438552.jpg" alt="Third slide">
+        <div class="carousel-caption d-md-block">
+          <button type="button" class="btn btn-success">IT Lessons</button>
+
+        </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="../assets/210510_fvsutour_5667_trh[1623159533].jpg" alt="Fourth slide">
-        
+        <div class="carousel-caption d-md-block">
+          <button type="button" class="btn btn-success">High school students</button>
+
+        </div>
       </div>
        <div class="carousel-item">
         <img class="d-block w-100" src="../assets/2022-black-teacher-teen-library3840x2160.jpg" alt="Fifth slide">
+        <div class="carousel-caption d-md-block">
+          <button type="button" class="btn btn-success">Writing assistance</button>
+
+        </div>
       </div>
       
     </div>
@@ -41,6 +59,25 @@
 
 </template>
 <style scoped>
-
+.carousel{
+  padding: 10px;
+}
+.d-block{
+  border-radius: 10px;
+}
+.carousel-item{
+   height: 720px;
+   border-radius: 10px;
+   display: flex;
+  
+}
+@media only screen and (max-width: 720px) {
+  .carousel-item{
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+   
+ }
+}
 </style>
 
