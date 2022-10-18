@@ -1,7 +1,7 @@
 <template>
 
      <div class="header">
-     <h1>SERVICES</h1>
+     <h1 >SERVICES</h1>
      <p>----------Swipe for more-------------</p>
     </div>
      <swiper
@@ -128,6 +128,21 @@
          </div>
       </div>
     </swiper-slide>
+    <swiper-slide>
+      <div class="card swiper-slide">
+        <div class="image-content">
+           <span class="overlay"></span>
+                <div class="card-image">
+                   <img class="card-img" src="../assets/WhatsApp Image 2022-10-14 at 8.15.03 PM (1).jpeg" alt="">
+                </div>
+        </div>
+         <div class="card-content">
+            <h2 class="name">Day care</h2>
+            <p class="description">Child care, otherwise known as day care, is the care and supervision of a child or multiple children at a time, whose ages range from two weeks of age to 18 years. Child care is a broad topic that covers a wide spectrum of professionals, institutions, contexts, activities, and social and cultural conventions. Early child care is an equally important and often overlooked component of child's developments.</p>
+           
+         </div>
+      </div>
+    </swiper-slide>
 
   </swiper>
 </template>
@@ -170,6 +185,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: bold;
+  color: green;
+  
 }
 .swiper {
   width: 100%;

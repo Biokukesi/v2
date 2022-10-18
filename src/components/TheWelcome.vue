@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="../assets/kids3.avif" alt="Second slide">
+        <img class="d-block w-100" src="../assets/WhatsApp Image 2022-10-14 at 8.15.04 PM.jpeg" alt="Second slide">
         <div class="carousel-caption d-md-block">
           <button type="button" class="btn btn-success">Kids</button>
 
@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="../assets/210510_fvsutour_5667_trh[1623159533].jpg" alt="Fourth slide">
+        <img class="d-block w-100" src="../assets/WhatsApp Image 2022-10-14 at 8.15.03 PM.jpeg" alt="Fourth slide">
         <div class="carousel-caption d-md-block">
           <button type="button" class="btn btn-success">High school students</button>
 
