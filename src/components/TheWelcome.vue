@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="../assets/WhatsApp Image 2022-10-14 at 8.15.04 PM.jpeg" alt="Second slide">
+        <img class="d-block w-100" src="../assets/kids3.avif" alt="Second slide">
         <div class="carousel-caption d-md-block">
           <button type="button" class="btn btn-success">Kids</button>
 
